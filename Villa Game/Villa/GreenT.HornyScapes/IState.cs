@@ -1,0 +1,8 @@
+namespace GreenT.HornyScapes;
+
+public interface IState
+{
+	void Enter();
+
+	void Exit();
+}

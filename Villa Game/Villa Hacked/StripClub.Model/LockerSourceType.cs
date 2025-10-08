@@ -1,0 +1,36 @@
+namespace StripClub.Model;
+
+public enum LockerSourceType
+{
+	None = 0,
+	Skin = 1,
+	AchievementGirlTracker = 3,
+	TutorialFinishTracker = 4,
+	RoomTracker = 5,
+	BankTab = 6,
+	Phrase = 7,
+	Constant = 8,
+	GemShopLot = 9,
+	SummonLot = 10,
+	BundleLot = 11,
+	Dialogue = 12,
+	OfferTab = 13,
+	Decoration = 14,
+	Calendar = 15,
+	StarShop = 16,
+	TutorialGroup = 17,
+	Character = 18,
+	Task = 19,
+	ShowCanvasByLockerData = 20,
+	ActiveByLockedData = 21,
+	StarStory = 22,
+	TaskStory = 23,
+	GoldenTicket = 24,
+	BattlePass = 25,
+	ShowButtonByLocker = 26,
+	RoomData = 27,
+	TutorialStep = 28,
+	MiniEventSummon = 29,
+	MergeMiniEvent = 30,
+	Banner = 31
+}

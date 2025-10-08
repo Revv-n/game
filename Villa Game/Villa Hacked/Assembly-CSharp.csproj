@@ -1,0 +1,86 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>10.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\Assembly\Asembly\Femboy Futa House_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\Assembly\Asembly\Femboy Futa House_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule" />
+    <Reference Include="DOTween">
+      <HintPath>..\Assembly\Asembly\Femboy Futa House_Data\Managed\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\Assembly\Asembly\Femboy Futa House_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule" />
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\Assembly\Asembly\Femboy Futa House_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\Assembly\Asembly\Femboy Futa House_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule" />
+    <Reference Include="UniRx" />
+    <Reference Include="HornyScapesAnalytics" />
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\Assembly\Asembly\Femboy Futa House_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="spine-unity">
+      <HintPath>..\Assembly\Asembly\Femboy Futa House_Data\Managed\spine-unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Zenject" />
+    <Reference Include="UnityEngine.AnimationModule" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="spine-csharp">
+      <HintPath>..\Assembly\Asembly\Femboy Futa House_Data\Managed\spine-csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Zenject-usage" />
+    <Reference Include="System.Core" />
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>..\Assembly\Asembly\Femboy Futa House_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="GreenT-DataStorage" />
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\Assembly\Asembly\Femboy Futa House_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="com.rlabrecque.steamworks.net">
+      <HintPath>..\Assembly\Asembly\Femboy Futa House_Data\Managed\com.rlabrecque.steamworks.net.dll</HintPath>
+    </Reference>
+    <Reference Include="Coffee.UIParticle" />
+    <Reference Include="gpm_webview" />
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>..\Assembly\Asembly\Femboy Futa House_Data\Managed\Unity.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>..\Assembly\Asembly\Femboy Futa House_Data\Managed\Unity.Addressables.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Assembly\Asembly\Femboy Futa House_Data\Managed\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\Assembly\Asembly\Femboy Futa House_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule" />
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\Assembly\Asembly\Femboy Futa House_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule" />
+    <Reference Include="UnityEngine.IMGUIModule" />
+    <Reference Include="UnityEngine.VideoModule" />
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule" />
+    <Reference Include="CryptSharp" />
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule" />
+  </ItemGroup>
+</Project>

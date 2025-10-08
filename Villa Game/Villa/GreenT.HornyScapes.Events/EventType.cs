@@ -1,0 +1,37 @@
+namespace GreenT.HornyScapes.Events;
+
+public enum EventType
+{
+	School = 0,
+	Travel = 1,
+	Fantasy = 2,
+	Valentines = 3,
+	Pornstudio = 4,
+	TravelNew = 5,
+	Easter = 6,
+	Adventure = 7,
+	Superheroes = 8,
+	Whorewarts = 9,
+	Comiccon = 100,
+	Starwhores = 11,
+	Halloween = 12,
+	GOT = 13,
+	XMAS = 14,
+	PornstudioNew = 101,
+	StarwhoresNew = 102,
+	Hwarts = 16,
+	EasterNew = 17,
+	SuperheroesNew = 18,
+	Disney = 19,
+	Mythology = 20,
+	GoldenWeek = 21,
+	FantasyNew = 22,
+	Vestern = 23,
+	Neko = 24,
+	Lockdown = 25,
+	Pirates = 26,
+	Bikers = 27,
+	Detective = 28,
+	Students = 29,
+	Novice = 103
+}

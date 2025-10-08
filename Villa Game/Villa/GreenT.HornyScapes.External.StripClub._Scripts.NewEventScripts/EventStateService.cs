@@ -1,0 +1,22 @@
+using GreenT.HornyScapes.Events;
+using Merge.Meta.RoomObjects;
+using UniRx;
+
+namespace GreenT.HornyScapes.External.StripClub._Scripts.NewEventScripts;
+
+public class EventStateService
+{
+	private readonly CalendarQueue _calendarQueue;
+
+	public bool HaveActiveEvent => _calendarQueue.HasActiveCalendar(EventStructureType.Event);
+
+	public IReadOnlyReactiveProperty<bool> OnEventStateChange(EntityStatus state)
+	{
+		return _calendarQueue.OnCalendarStateChange(EventStructureType.Event, state).ToReactiveProperty();
+	}
+
+	public EventStateService(CalendarQueue calendarQueue)
+	{
+		_calendarQueue = calendarQueue;
+	}
+}
